@@ -13,8 +13,25 @@
 
 @layer base {
   body {
-    background-color: black;
+    background-image: url('/images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
+    position: relative;
+  }
+  
+  /* Dark overlay to preserve readability while showing background */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.34);
+    z-index: -1;
   }
 }
 
