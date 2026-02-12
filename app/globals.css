@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500&family=Montserrat:wght@300;400;500&display=swap');
+
+@import "tailwindcss";
+
+/* Custom Font - HopsAndBarley (Logo Font) */
+@font-face {
+  font-family: 'HopsAndBarley';
+  src: url('/fonts/HopsAndBarleyc2-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* Custom scrollbar hide */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
