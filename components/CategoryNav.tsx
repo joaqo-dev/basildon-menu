@@ -8,7 +8,7 @@ interface CategoryNavProps {
 
 export function CategoryNav({ categories, activeCategory, onCategoryChange }: CategoryNavProps) {
   return (
-    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-[#c5a059]/15 px-4 py-6">
+    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-[#c5a059]/15 px-4 py-6 pb-8">
       <div className="max-w-2xl mx-auto relative">
         {/* Left fade indicator */}
         <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-black/95 to-transparent pointer-events-none z-10" />
@@ -36,10 +36,12 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
         </div>
         
         <div
-          className="flex gap-6 overflow-x-auto scrollbar-hide px-3"
+          className="flex gap-6 overflow-x-auto overflow-y-hidden scrollbar-hide px-3"
           style={{
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
+            overscrollBehaviorX: 'contain',
+            overscrollBehaviorY: 'none'
           }}
         >
           {categories.map((category) => (
@@ -48,7 +50,7 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
               onClick={() => onCategoryChange(category)}
               className={`
                 relative whitespace-nowrap text-[11px] tracking-[0.25em] uppercase transition-all duration-500
-                font-['Montserrat',sans-serif] font-light
+                font-['Montserrat',sans-serif] font-light pb-3
                 ${
                   activeCategory === category
                     ? 'text-[#c5a059]'
