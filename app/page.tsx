@@ -324,7 +324,7 @@ export default function HomePage() {
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black">
       <Header />
       
       <CategoryNav
