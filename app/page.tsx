@@ -13,70 +13,65 @@ const menuData = {
       items: [
         {
           name: 'Ceviche de Salmón',
-          description: 'Salmón fresco, cebolla morada, pimentones, cilantro, palta y choclo peruano, aderezado con leche de tigre. Acompañado de tostadas.',
+          description: 'Salmón fresco, cebolla morada, pimentones, cilantro, palta, choclo peruano aderezado con leche de tigre, acompañado de tostadas.',
           price: '$12.500'
         },
         {
           name: 'Ceviche de Atún',
-          description: 'Dados de atún fresco, cebolla morada, pimentones, cilantro y pepino fresco, aliñado con limón sutil y ralladura de naranja y limón. Acompañado de tostadas de la casa.',
+          description: 'Dados de atún fresco, cebolla morada, pimentones, cilantro, pepino fresco, aliñado con limón sutil, ralladura de naranja y limón. Acompañado de tostadas de la casa.',
           price: '$12.500'
+        },
+        {
+          name: 'Ensalada César',
+          description: 'Mix de hojas verdes, filete de pollo grillado, crutones, queso parmesano, tomate cherry, dressing tradicional César.',
+          price: '$9.500'
         }
       ]
     },
     {
-      section: 'Ensaladas',
+      section: 'Picoteo',
       items: [
         {
-          name: 'Ensalada César',
-          description: 'Mix de hojas verdes, filete de pollo grillado, crutones, queso parmesano y tomate cherry, con dressing tradicional César.',
-          price: '$9.500'
+          name: 'Alitas BBQ',
+          description: '',
+          price: '$13.900'
+        },
+        {
+          name: 'Papas Rústicas (2 p)',
+          description: '',
+          price: '$7.000'
+        },
+        {
+          name: 'Papas Fritas de la Casa (2 p)',
+          description: '',
+          price: '$6.000'
+        },
+        {
+          name: '8 Empanadas Queso',
+          description: '',
+          price: '$4.000'
         }
       ]
     }
   ],
   'PRINCIPALES': [
     {
-      section: 'Carnes',
+      section: 'Fondos y Carnes',
       items: [
         {
           name: 'Filete Mignon',
-          description: 'Carne nacional en reducción de vino tinto, arándanos y romero.',
+          description: 'Carne nacional en una reducción de vino tinto, arándanos y romero.',
           price: '$21.500'
         },
         {
           name: 'Lomo Vetado Nacional',
-          description: '400 g.',
+          description: 'Corte de 400 g de carne nacional.',
           price: '$22.500'
         },
         {
           name: 'Pollo a la Plancha',
-          description: 'Grillado a las finas hierbas.',
+          description: 'Pechuga de pollo grillado a las finas hierbas.',
           price: '$13.900'
-        }
-      ]
-    },
-    {
-      section: 'Acompañamientos',
-      items: [
-        {
-          name: 'Pastelera de Choclo',
-          description: 'Con albahaca.',
-          price: ''
-        },
-        {
-          name: 'Papas Rústicas',
-          description: 'Papas con cáscara en cocción suave, pasadas por mantequilla a las finas hierbas.',
-          price: ''
-        },
-        {
-          name: 'Papas Fritas de la Casa',
-          description: '',
-          price: ''
-        },
-        {
-          name: 'Verduras Salteadas',
-          description: 'Zucchini, zanahoria, champiñones, morrones y cebollín.',
-          price: ''
         }
       ]
     },
@@ -84,73 +79,72 @@ const menuData = {
       section: 'Pastas',
       items: [
         {
-          name: 'Fettuccini Lomo Saltado',
-          description: 'Acompañado de lomo saltado en su jugo, con tomates cherry confitados y cebollín fresco.',
+          name: 'Fetuccini con Lomo Saltado',
+          description: 'Fetuccini acompañado de lomo saltado en su jugo con tomates cherry confitado y cebollín fresco.',
           price: '$13.900'
         },
         {
-          name: 'Fettuccini de Camarones',
-          description: 'En cremoso de camarones y cebollín fresco.',
-          price: '$11.500'
+          name: 'Fetuccini y Setas',
+          description: 'Fetuccini con setas y zucchini salteado en mantequilla de romero.',
+          price: '$9.900'
         },
         {
-          name: 'Fettuccini con Setas',
-          description: 'Setas y zucchini salteados en mantequilla de romero.',
-          price: '$9.900'
+          name: 'Fetuccini con Camarones',
+          description: 'Fetuccini en cremoso de camarones y ciboulette fresco.',
+          price: '$11.500'
         }
+      ]
+    },
+    {
+      section: 'Acompañamientos',
+      items: [
+        { name: 'Pastelera de Choclo con Albahaca', description: '', price: '' },
+        { name: 'Papas Rústicas', description: '', price: '' },
+        { name: 'Papas Fritas de la Casa', description: '', price: '' },
+        { name: 'Verduras Salteadas', description: '', price: '' }
       ]
     },
     {
       section: 'Ensaladas',
       items: [
-        {
-          name: 'Lechuga, Palta, Palmito',
-          description: '',
-          price: '$4.600'
-        },
-        {
-          name: 'Lechuga, Tomate Cherry, Palta',
-          description: '',
-          price: '$4.200'
-        },
-        {
-          name: 'Rúcula, Lechuga Hidropónica',
-          description: '',
-          price: '$3.900'
-        }
+        { name: 'Lechuga, Palta, Palmito', description: '', price: '$4.600' },
+        { name: 'Lechuga, Tomate Cherry, Palta', description: '', price: '$4.200' },
+        { name: 'Rúcula, Lechuga Hidropónica', description: '', price: '$3.900' }
       ]
-    },
+    }
+  ],
+  'PARA COMPARTIR': [
     {
-      section: 'Para Compartir',
+      section: 'Papas para Compartir',
       items: [
         {
           name: 'Las Mechadas',
-          description: 'Ricas papas fritas (700 g), aderezadas con aceite de ajo y jengibre, salsa cheddar, tiritas de carne mechada, tocino crocante, queso en cubos, cebollín fresco y salsa verde.',
+          description: 'Papas fritas (700grs) aderezadas con aceite de ajo, jengibre, salsa cheddar, tiritas de carne mechada, tocino crocante, queso en cubos y cebollín fresco con salsa verde.',
           price: '$15.500'
         },
         {
           name: 'La Vegetariana',
-          description: 'Base de papas fritas (700 g), aderezadas con aceite de ajo y jengibre, salsa de champiñones, verduras glaseadas, tomates cherry confitados, aceitunas y salsa coleslaw.',
+          description: 'Base de papas fritas (700grs) aderezadas con aceite de ajo, jengibre, salsa de champiñones, verduras glaseadas, tomate cherry confitados, aceitunas y salsa coleslaw.',
           price: '$13.500'
         }
       ]
     },
     {
-      section: 'Tablas Basildon',
+      section: 'Tablas',
       items: [
         {
           name: 'Tabla de Quesos',
-          description: 'Para 2 personas. Trozos de quesos saborizados, jamón serrano, brochetas italianas, aceitunas, frutos secos y salsas. Acompañado de tostadas de la casa.',
+          description: 'Trozos de queso saborizados, jamón serrano, brochetas italianas, aceitunas, frutos secos y salsas, acompañado de crocantes tostadas de la casa.',
           price: '$19.900'
         },
         {
           name: 'Tabla de Carnes',
-          description: 'Pollo salteado a las finas hierbas, lomo nacional salteado en su jugo, verduras asadas, papas fritas, encurtidos y salsas de la casa.',
+          description: 'Pollo salteado a las finas hierbas, carne de lomo nacional saltado en su jugo, verduras asadas, papas fritas, encurtidos, salsas de la casa.',
           price: '$23.900'
         },
         {
-          name: 'Para Compartir',
-          description: 'Para 2 personas. 4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y bruschettas.',
+          name: 'Tabla para Compartir',
+          description: '4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y brusquetas.',
           price: '$17.900'
         }
       ]
@@ -158,43 +152,43 @@ const menuData = {
   ],
   'HAMBURGUESAS': [
     {
-      section: 'Hamburguesas',
+      section: 'Hamburguesas Angus',
       items: [
         {
           name: 'Italiana',
-          description: 'Pan brioche, hamburguesa, tomate, palta y mayonesa.',
+          description: '150 gr (Angus/Tocino), pan brioche, tomate, palta y mayonesa. Con papas fritas.',
           price: '$11.900'
         },
         {
           name: 'Basildon',
-          description: 'Pan brioche, hamburguesa, tocino crocante, queso y salsa BBQ.',
+          description: '150 gr (Angus/Tocino), pan brioche, tocino crocante, queso, salsa BBQ. Con papas fritas.',
           price: '$11.900'
         },
         {
           name: 'Coleslaw',
-          description: 'Pan brioche, hamburguesa, ensalada de repollo morado y zanahoria, dressing de mostaza y miel, terminada con queso mantecoso fundido.',
+          description: '150 gr (Angus/Tocino), pan brioche, ensalada de repollo morado, zanahoria, dressing mostaza-miel y queso mantecoso. Con papas fritas.',
           price: '$11.900'
         },
         {
           name: 'La Gringa',
-          description: 'Pan brioche, hamburguesa, lechuga, tomate, pepinos caseros, cebolla morada y salsa BBQ.',
+          description: '150 gr (Angus/Tocino), pan brioche, lechuga, tomate, pepinos caseros, cebolla morada y salsa BBQ. Con papas fritas.',
           price: '$11.900'
         },
         {
           name: 'La Infaltable',
-          description: 'Pan brioche, hamburguesa, aros de cebolla, tocino, huevo frito, cebolla caramelizada y salsa BBQ. Incluye porción de salsa de queso cheddar caliente para untar.',
+          description: '150 gr (Angus/Tocino), pan brioche, aros de cebolla, tocino, huevo frito, cebolla caramelizada, salsa BBQ y extra salsa de queso cheddar caliente. Con papas fritas.',
           price: '$12.500'
         }
       ]
     }
   ],
-  'CLÁSICOS': [
+  'SÁNDWICHES': [
     {
-      section: 'Sándwiches Clásicos',
+      section: 'Clásicos',
       items: [
         {
           name: 'Chacarero',
-          description: 'Carne mechada en cocción lenta, tomates asados, porotos verdes y ají verde de la huerta, terminado con suave mayonesa casera. Pan marraqueta.',
+          description: 'Carne mechada, tomates asados, porotos verdes, ají verde y mayonesa casera en pan marraqueta.',
           price: '$11.900'
         },
         {
@@ -203,19 +197,19 @@ const menuData = {
           price: '$11.900'
         },
         {
-          name: 'Barros Luco',
-          description: 'Suave y jugosa carne de res, doble queso fundido.',
+          name: 'Ave Italiano',
+          description: 'Filete de pollo, palta, tomate y mayonesa de la casa.',
           price: '$11.900'
         },
         {
-          name: 'Ave Italiano',
-          description: 'Filete de pollo, palta, tomate y mayonesa de la casa.',
-          price: '$10.900'
+          name: 'Barros Luco',
+          description: 'Carne de res con doble queso fundido.',
+          price: '$11.900'
         }
       ]
     },
     {
-      section: 'Sándwiches Basildon',
+      section: 'Especialidades Basildon',
       items: [
         {
           name: 'El New Wave',
@@ -224,27 +218,27 @@ const menuData = {
         },
         {
           name: 'El Brit',
-          description: 'Filete de pollo, lechuga, pepinos frescos, palta y cebolla morada.',
+          description: 'Filete de pollo, lechuga, pepinos frescos, palta e cebolla morada.',
           price: '$10.500'
         },
         {
           name: 'El Synth-Pop',
-          description: 'Finas láminas de res, queso azul fundido, champiñones salteados, pimentones asados, palta y chimichurri de la casa.',
+          description: 'Finas láminas de res, queso azul fundido, champiñones salteados, pimentones asados, palta e chimichurri.',
           price: '$10.900'
         },
         {
           name: 'El New Romantic',
-          description: 'Croquetas de berenjena apanadas, ensalada fresca de champiñones (cebolla morada, cilantro y tomate) y queso de cabra.',
+          description: 'Croquetas de berenjenas apanadas, ensalada de champiñones (cebolla morada, cilantro y tomate), queso de cabra.',
           price: '$10.500'
         },
         {
           name: 'El Dark',
-          description: 'Finas láminas de res, queso mantecoso, jamón serrano crocante y cebolla caramelizada.',
+          description: 'Finas láminas de res, queso mantecoso, jamón serrano crocante e cebolla caramelizada.',
           price: '$11.000'
         },
         {
           name: 'El Post Punk',
-          description: 'Láminas de jamón serrano, rúcula fresca, ricota saborizada, cebolla morada fina, aceitunas y dressing de la casa.',
+          description: 'Jamón serrano, rúcula fresca, ricota saborizada, cebolla morada fina, aceitunas y dressing de la casa.',
           price: '$10.500'
         }
       ]
@@ -252,67 +246,97 @@ const menuData = {
   ],
   'BEBIDAS': [
     {
-      section: 'Bebestibles',
+      section: 'Sin Alcohol',
       items: [
         {
-          name: 'Bebida Lata',
-          description: '350 ml – Coca-Cola Zero Azúcar, Coca-Cola Original, Fanta, Sprite.',
+          name: 'Bebida Lata (350 ml)',
+          description: 'Coca-Cola, Zero, Fanta, Sprite.',
           price: '$3.000'
         },
         {
-          name: 'Jugos de Fruta (Pulpa)',
-          description: 'Maracuyá, mango, frambuesa, piña, mix berries.',
+          name: 'Jugos de Fruta',
+          description: 'Maracuyá, Mango, Frambuesa, Piña, Mix Berries.',
           price: '$3.900'
         },
         {
-          name: 'Agua Mineral con Gas Porvenir',
-          description: 'Botella de vidrio 330 ml.',
-          price: '$2.300'
-        },
-        {
-          name: 'Agua Mineral Vital con Gas',
-          description: 'Botella de vidrio 330 ml.',
-          price: '$2.000'
-        },
-        {
           name: 'Limonadas',
-          description: 'Menta y jengibre, frambuesa, mango, piña, maracuyá, mix berries.',
+          description: 'Clásica, Menta Jengibre, Frambuesa, Mango, Piña, Maracuyá, Mix Berries.',
           price: '$4.300'
+        },
+        {
+          name: 'Cerveza 0°',
+          description: 'Royal, Heineken, Corona.',
+          price: '$4.600'
+        },
+        {
+          name: 'Expresso',
+          description: '',
+          price: '$2.500'
+        },
+        {
+          name: 'Latte',
+          description: '',
+          price: '$3.600'
+        },
+        {
+          name: 'Agua Mineral con Gas (330 ml)',
+          description: '',
+          price: '$2.000'
         }
       ]
     },
     {
-      section: 'Coctelería sin Alcohol',
+      section: 'Coctelería',
       items: [
         {
-          name: 'Piña Colada',
-          description: '',
-          price: '$5.500'
+          name: 'Pinkzotti',
+          description: 'Ramazzotti, gin, jugo de limón, goma.',
+          price: '$7.800'
         },
         {
-          name: 'Frambuesa Colada',
+          name: 'Aperol Spritz',
           description: '',
-          price: '$6.000'
+          price: '$7.400'
         },
         {
-          name: 'Mango Colado',
+          name: 'Moscow Mule',
           description: '',
-          price: '$6.000'
+          price: '$7.000'
         },
         {
-          name: 'Maracuyá Colado',
-          description: '',
-          price: '$6.000'
+          name: 'Negroni Sbagliato',
+          description: 'Espumante, campari y vermut.',
+          price: '$6.800'
         },
         {
-          name: 'Primavera',
-          description: '',
-          price: '$5.300'
+          name: 'Cosmopolitan',
+          description: 'Vodka, Aperol, jugo de arándano, jugo de limón.',
+          price: '$6.500'
         },
         {
-          name: 'Mojitos Sabores',
-          description: '',
-          price: '$5.800'
+          name: 'Mimosa',
+          description: 'Espumante, Aperol y jugo de naranja.',
+          price: '$4.800'
+        }
+      ]
+    },
+    {
+      section: 'Vinos Castillo de Molina',
+      items: [
+        {
+          name: 'Tintos (Carmenere/Cabernet)',
+          description: 'Copa / Botella',
+          price: '$5.600 / $19.500'
+        },
+        {
+          name: 'Blanco (Chardonnay)',
+          description: 'Copa / Botella',
+          price: '$5.400 / $17.000'
+        },
+        {
+          name: 'Espumante',
+          description: 'Copa',
+          price: '$4.700'
         }
       ]
     }
