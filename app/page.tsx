@@ -246,98 +246,77 @@ const menuData = {
   ],
   'BEBIDAS': [
     {
-      section: 'Sin Alcohol',
+      section: 'Cocktails',
       items: [
-        {
-          name: 'Bebida Lata (350 ml)',
-          description: 'Coca-Cola, Zero, Fanta, Sprite.',
-          price: '$3.000'
-        },
-        {
-          name: 'Jugos de Fruta',
-          description: 'Maracuyá, Mango, Frambuesa, Piña, Mix Berries.',
-          price: '$3.900'
-        },
-        {
-          name: 'Limonadas',
-          description: 'Clásica, Menta Jengibre, Frambuesa, Mango, Piña, Maracuyá, Mix Berries.',
-          price: '$4.300'
-        },
-        {
-          name: 'Cerveza 0°',
-          description: 'Royal, Heineken, Corona.',
-          price: '$4.600'
-        },
-        {
-          name: 'Expresso',
-          description: '',
-          price: '$2.500'
-        },
-        {
-          name: 'Latte',
-          description: '',
-          price: '$3.600'
-        },
-        {
-          name: 'Agua Mineral con Gas (330 ml)',
-          description: '',
-          price: '$2.000'
-        }
+        { name: 'Mimosa', description: 'Espumante, Aperol y jugo de naranja.', price: '$4.800' },
+        { name: 'Cosmopolitan', description: 'Vodka, Aperol, jugo de arándano, jugo de limón.', price: '$6.500' },
+        { name: 'Negroni Sbagliato', description: 'Espumante, campari y vermut.', price: '$6.800' },
+        { name: 'Primavera', description: '', price: '$5.500' },
+        { name: 'Mojito Tradicional', description: '', price: '$6.000' },
+        { name: 'Mojito Sabores', description: 'Mango, Maracuyá, Frambuesa, Piña.', price: '$6.500' },
+        { name: 'Piña Colada', description: '', price: '$5.500' },
+        { name: 'Colada Sabores', description: 'Mango, Maracuyá, Frambuesa, Piña.', price: '$6.000' },
+        { name: 'Boulevardier', description: 'Whisky, Campari, Vermut Rosso.', price: '$7.000' },
+        { name: 'Clavo Oxidado', description: 'Whisky, Drambuie, cáscara de limón, clavo de olor.', price: '$7.200' },
+        { name: 'Tequila Margarita', description: 'Tequila, triple sec y jugo de limón.', price: '$6.700' },
+        { name: 'Moscow Mule', description: 'Vodka, jugo de limón, goma y cerveza o bebida de jengibre.', price: '$7.000' },
+        { name: 'Aperol Spritz', description: 'Espumante Brut, Aperol, soda.', price: '$7.400' },
+        { name: 'Ramazzotti Spritz', description: 'Ramazzotti Rosarito, Espumante, soda.', price: '$7.000' },
+        { name: 'Ramazzotti Tonic', description: 'Ramazzotti y agua tónica.', price: '$7.000' },
+        { name: 'Ramazzotti Violetto', description: 'Ramazzotti Violetto y agua tónica.', price: '$7.000' },
+        { name: 'Pinkzotti', description: 'Ramazzotti, gin, jugo de limón, goma.', price: '$7.800' },
+        { name: 'Intro to Aperol', description: 'Bitter angostura, gin, jugo de limón, goma, Aperol.', price: '$7.200' }
       ]
     },
     {
-      section: 'Coctelería',
+      section: 'Gin',
       items: [
-        {
-          name: 'Pinkzotti',
-          description: 'Ramazzotti, gin, jugo de limón, goma.',
-          price: '$7.800'
-        },
-        {
-          name: 'Aperol Spritz',
-          description: '',
-          price: '$7.400'
-        },
-        {
-          name: 'Moscow Mule',
-          description: '',
-          price: '$7.000'
-        },
-        {
-          name: 'Negroni Sbagliato',
-          description: 'Espumante, campari y vermut.',
-          price: '$6.800'
-        },
-        {
-          name: 'Cosmopolitan',
-          description: 'Vodka, Aperol, jugo de arándano, jugo de limón.',
-          price: '$6.500'
-        },
-        {
-          name: 'Mimosa',
-          description: 'Espumante, Aperol y jugo de naranja.',
-          price: '$4.800'
-        }
+        { name: 'Gin Tonic Clásico', description: 'Gin con agua tónica.', price: '$7.900' },
+        { name: 'Tropical Gin', description: 'Gin, jugo de naranja recién exprimido, Redbull Yellow Edition.', price: '$7.900' },
+        { name: 'Gin Fizz', description: 'Gin, jugo de limón, jarabe de goma y soda.', price: '$7.900' },
+        { name: 'London Mule', description: 'Gin, jugo de limón, cerveza o bebida de jengibre.', price: '$7.000' },
+        { name: 'Pink Tonic', description: 'Gin rosé, jarabe de flor de sauco, soda, frambuesa.', price: '$7.200' },
+        { name: 'Gin Pomelo', description: 'Gin rosado, jugo de pomelo, jugo de limón, Ramazzotti y agua tónica o bebida ginger.', price: '$8.200' },
+        { name: 'Negroni', description: 'Gin, vermut, campari.', price: '$6.800' }
+      ]
+    },
+    {
+      section: 'Los Fuertes',
+      items: [
+        { name: 'Whisky Chivas Regal 12*', description: '', price: '$9.900' },
+        { name: 'Whisky Chivas Regal 18*', description: '', price: '$18.000' },
+        { name: 'Whisky Jack Daniels*', description: '', price: '$9.500' },
+        { name: 'Pisco Mistral 35°**', description: '', price: '$5.500' },
+        { name: 'Pisco Nobel 40°**', description: '', price: '$6.500' },
+        { name: 'Ron Havana Club*', description: '', price: '$5.900' },
+        { name: 'Johnnie Walker Red Label*', description: '', price: '$5.500' },
+        { name: 'Corto Jaggermeister', description: '', price: '$4.000' },
+        { name: 'Jaggermeister*', description: '', price: '$5.500' },
+        { name: 'Notas', description: '* Incluyen bebida | ** Incluyen bebida', price: '' }
       ]
     },
     {
       section: 'Vinos Castillo de Molina',
       items: [
-        {
-          name: 'Tintos (Carmenere/Cabernet)',
-          description: 'Copa / Botella',
-          price: '$5.600 / $19.500'
-        },
-        {
-          name: 'Blanco (Chardonnay)',
-          description: 'Copa / Botella',
-          price: '$5.400 / $17.000'
-        },
-        {
-          name: 'Espumante',
-          description: 'Copa',
-          price: '$4.700'
-        }
+        { name: 'Tintos (Carmenere/Cabernet)', description: 'Copa / Botella', price: '$5.600 / $19.500' },
+        { name: 'Blanco (Chardonnay)', description: 'Copa / Botella', price: '$5.400 / $17.000' },
+        { name: 'Espumante', description: 'Copa', price: '$4.700' }
+      ]
+    },
+    {
+      section: 'Sin Alcohol',
+      items: [
+        { name: 'Bebida Lata (350 ml)', description: 'Coca-Cola normal, Coca-Cola Zero, Fanta, Sprite.', price: '$3.000' },
+        { name: 'Jugos de Fruta (Pulpa)', description: 'Maracuyá, Mango, Frambuesa, Piña, Mix Berries.', price: '$3.900' },
+        { name: 'Limonadas', description: 'Clásica, Menta Jengibre, Frambuesa, Mango, Piña, Maracuyá, Mix Berries.', price: '$4.300' },
+        { name: 'Piña Colada Sin Alcohol', description: '', price: '$5.500' },
+        { name: 'Colada Sabores Sin Alcohol', description: 'Mango, Maracuyá, Frambuesa, Piña.', price: '$6.000' },
+        { name: 'Primavera Sin Alcohol', description: '', price: '$5.300' },
+        { name: 'Mojito Sabores Sin Alcohol', description: '', price: '$5.800' },
+        { name: 'Expresso', description: '', price: '$2.500' },
+        { name: 'Latte', description: '', price: '$3.600' },
+        { name: 'Agua Mineral con Gas (330 ml)', description: 'Porvenir, botella de vidrio.', price: '$2.000' },
+        { name: 'Cerveza 0°', description: 'Royal, Heineken o Corona.', price: '$4.600' }
       ]
     }
   ]
@@ -408,6 +387,16 @@ export default function HomePage() {
           }}
         >
           Basildon Listening Restobar
+        </p>
+        <p 
+          className="text-center text-[#d4adad]/40 uppercase tracking-[0.3em]"
+          style={{
+            fontFamily: 'Montserrat, sans-serif',
+            fontSize: '8px',
+            fontWeight: 300
+          }}
+        >
+          Orompello #68, Concepción
         </p>
       </footer>
     </div>

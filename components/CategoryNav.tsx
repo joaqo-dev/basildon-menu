@@ -11,10 +11,10 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
     <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-[#c5a059]/15 px-4 py-6 pb-8">
       <div className="max-w-2xl mx-auto relative">
         {/* Left fade indicator */}
-        <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-black/95 to-transparent pointer-events-none z-10" />
+        <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-black/95 to-transparent pointer-events-none z-10" />
         
         {/* Right fade indicator */}
-        <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-black/95 to-transparent pointer-events-none z-10" />
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-black/95 to-transparent pointer-events-none z-10" />
         
         {/* Scroll hint chevron - right side */}
         <div className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none z-20 animate-pulse">
@@ -36,7 +36,7 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
         </div>
         
         <div
-          className="flex gap-6 overflow-x-auto overflow-y-hidden scrollbar-hide px-3"
+          className="flex gap-6 overflow-x-auto overflow-y-hidden scrollbar-hide px-12"
           style={{
             scrollbarWidth: 'none',
             msOverflowStyle: 'none',
