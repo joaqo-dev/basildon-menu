@@ -27,31 +27,6 @@ const menuData = {
           price: '$9.500'
         }
       ]
-    },
-    {
-      section: 'Picoteo',
-      items: [
-        {
-          name: 'Alitas BBQ',
-          description: '',
-          price: '$13.900'
-        },
-        {
-          name: 'Papas Rústicas (2 p)',
-          description: '',
-          price: '$7.000'
-        },
-        {
-          name: 'Papas Fritas de la Casa (2 p)',
-          description: '',
-          price: '$6.000'
-        },
-        {
-          name: '8 Empanadas Queso',
-          description: '',
-          price: '$4.000'
-        }
-      ]
     }
   ],
   'PRINCIPALES': [
@@ -146,6 +121,31 @@ const menuData = {
           name: 'Tabla para Compartir',
           description: '4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y brusquetas.',
           price: '$17.900'
+        }
+      ]
+    },
+    {
+      section: 'Picoteo',
+      items: [
+        {
+          name: 'Alitas BBQ',
+          description: '',
+          price: '$13.900'
+        },
+        {
+          name: 'Papas Rústicas (2 p)',
+          description: '',
+          price: '$7.000'
+        },
+        {
+          name: 'Papas Fritas de la Casa (2 p)',
+          description: '',
+          price: '$6.000'
+        },
+        {
+          name: '8 Empanadas Queso',
+          description: '',
+          price: '$4.000'
         }
       ]
     }
