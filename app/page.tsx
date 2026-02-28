@@ -59,7 +59,7 @@ const menuData = {
           price: '$13.900'
         },
         {
-          name: 'Fetuccini y Setas',
+          name: 'Fetuccini y Setas 🌱',
           description: 'Fetuccini con setas y zucchini salteado en mantequilla de romero.',
           price: '$9.900'
         },
@@ -98,7 +98,7 @@ const menuData = {
           price: '$15.500'
         },
         {
-          name: 'La Vegetariana',
+          name: 'La Vegetariana 🌱',
           description: 'Base de papas fritas (700grs) aderezadas con aceite de ajo, jengibre, salsa de champiñones, verduras glaseadas, tomate cherry confitados, aceitunas y salsa coleslaw.',
           price: '$13.500'
         }
@@ -227,7 +227,7 @@ const menuData = {
           price: '$10.900'
         },
         {
-          name: 'El New Romantic',
+          name: 'El New Romantic 🌱',
           description: 'Croquetas de berenjenas apanadas, ensalada de champiñones (cebolla morada, cilantro y tomate), queso de cabra.',
           price: '$10.500'
         },
@@ -332,13 +332,13 @@ const menuData = {
       section: 'Los Fuertes',
       items: [
         { name: 'Whisky Glenfiddich 18', description: '', price: '' },
-        { name: 'Whisky Glenfiddich 12', description: '', price: '' },
+        { name: 'Whisky Glenfiddich 12', description: '', price: '$14.000' },
         { name: 'Whisky Chivas Regal 12 + Bebida', description: '', price: '$9.900' },
         { name: 'Whisky Chivas Regal 18 + Bebida', description: '', price: '$18.000' },
         { name: 'Jack Daniels + Bebida', description: '', price: '$9.500' },
         { name: 'Johnnie Walker Rojo Solo', description: '', price: '$4.500' },
         { name: 'Johnnie Walker Rojo + Bebida', description: '', price: '$5.800' },
-        { name: 'Johnnie Walker Negro', description: '', price: '' },
+        { name: 'Johnnie Walker Negro + Bebida', description: '', price: '$12.500' },
         { name: 'Pisco Artesanal Valle Luna + Bebida', description: '', price: '$5.500' },
         { name: 'Pisco Artesanal Valle Luna Solo', description: '', price: '$4.500' },
         { name: 'Pisco 35° + Bebida', description: '', price: '$5.500' },
