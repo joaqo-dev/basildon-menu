@@ -121,6 +121,11 @@ const menuData = {
           name: 'Tabla para Compartir',
           description: '4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y brusquetas.',
           price: '$17.900'
+        },
+        {
+          name: 'Tabla pollo Rockeford',
+          description: 'Papas fritas de la casa, pollo salteado, salsa de queso azul, champiñones salteados y pimentones asados.',
+          price: '$17.900'
         }
       ]
     },
