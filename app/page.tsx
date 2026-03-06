@@ -14,17 +14,17 @@ const menuData = {
         {
           name: 'Ceviche de Salmón',
           description: 'Salmón fresco, cebolla morada, pimentones, cilantro, palta, choclo peruano aderezado con leche de tigre, acompañado de tostadas.',
-          price: '$12.500'
+          price: '$13.500'
         },
         {
           name: 'Ceviche de Atún',
           description: 'Dados de atún fresco, cebolla morada, pimentones, cilantro, pepino fresco, aliñado con limón sutil, ralladura de naranja y limón. Acompañado de tostadas de la casa.',
-          price: '$12.500'
+          price: '$13.500'
         },
         {
           name: 'Ensalada César',
           description: 'Mix de hojas verdes, filete de pollo grillado, crutones, queso parmesano, tomate cherry, dressing tradicional César.',
-          price: '$9.500'
+          price: '$10.500'
         }
       ]
     }
@@ -41,7 +41,7 @@ const menuData = {
         {
           name: 'Lomo Vetado Nacional',
           description: 'Corte de 400 g de carne nacional.',
-          price: '$22.500'
+          price: '$23.900'
         },
         {
           name: 'Pollo a la Plancha',
@@ -61,12 +61,12 @@ const menuData = {
         {
           name: 'Fetuccini y Setas 🌱',
           description: 'Fetuccini con setas y zucchini salteado en mantequilla de romero.',
-          price: '$9.900'
+          price: '$10.500'
         },
         {
           name: 'Fetuccini con Camarones',
           description: 'Fetuccini en cremoso de camarones y ciboulette fresco.',
-          price: '$11.500'
+          price: '$12.400'
         }
       ]
     },
@@ -82,9 +82,9 @@ const menuData = {
     {
       section: 'Ensaladas',
       items: [
-        { name: 'Lechuga, Palta, Palmito', description: '', price: '$4.600' },
-        { name: 'Lechuga, Tomate Cherry, Palta', description: '', price: '$4.200' },
-        { name: 'Rúcula, Lechuga Hidropónica', description: '', price: '$3.900' }
+        { name: 'Lechuga, Palta, Palmito', description: '', price: '$5.400' },
+        { name: 'Lechuga, Tomate Cherry, Palta', description: '', price: '$5.200' },
+        { name: 'Rúcula, Lechuga Hidropónica', description: '', price: '$4.600' }
       ]
     }
   ],
@@ -95,12 +95,12 @@ const menuData = {
         {
           name: 'Las Mechadas',
           description: 'Papas fritas (700grs) aderezadas con aceite de ajo, jengibre, salsa cheddar, tiritas de carne mechada, tocino crocante, queso en cubos y cebollín fresco con salsa verde.',
-          price: '$15.500'
+          price: '$18.900'
         },
         {
           name: 'La Vegetariana 🌱',
           description: 'Base de papas fritas (700grs) aderezadas con aceite de ajo, jengibre, salsa de champiñones, verduras glaseadas, tomate cherry confitados, aceitunas y salsa coleslaw.',
-          price: '$13.500'
+          price: '$15.700'
         }
       ]
     },
@@ -110,7 +110,7 @@ const menuData = {
         {
           name: 'Tabla de Quesos',
           description: 'Trozos de queso saborizados, jamón serrano, brochetas italianas, aceitunas, frutos secos y salsas, acompañado de crocantes tostadas de la casa.',
-          price: '$19.900'
+          price: '$20.900'
         },
         {
           name: 'Tabla de Carnes',
@@ -120,7 +120,7 @@ const menuData = {
         {
           name: 'Tabla para Compartir',
           description: '4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y brusquetas.',
-          price: '$17.900'
+          price: '$18.900'
         },
         {
           name: 'Tabla pollo Rockeford',
@@ -140,17 +140,17 @@ const menuData = {
         {
           name: 'Papas Rústicas (2 p)',
           description: '',
-          price: '$7.000'
+          price: '$8.200'
         },
         {
           name: 'Papas Fritas de la Casa (2 p)',
           description: '',
-          price: '$6.000'
+          price: '$7.500'
         },
         {
-          name: '8 Empanadas Queso',
+          name: '6 Empanadas Queso',
           description: '',
-          price: '$4.000'
+          price: '$10.500'
         }
       ]
     }
@@ -371,18 +371,16 @@ const menuData = {
     {
       section: 'Sin Alcohol',
       items: [
-        { name: 'Bebida Lata', description: '', price: '$3.000' },
+        { name: 'Bebida Lata', description: 'Coca-Cola, Coca-Cola Zero, Sprite, Fanta', price: '$3.000' },
         { name: 'Lata Redbull 250', description: '', price: '$3.500' },
-        { name: 'Jugos Naturales', description: '', price: '$3.900' },
-        { name: 'Limonada', description: '', price: '$4.300' },
+        { name: 'Jugos Naturales (pulpa)', description: '', price: '$3.900' },
+        { name: 'Limonada', description: 'Clásica, Menta Jengibre, Frambuesa, Mango, Piña, Maracuyá, Mix Berries', price: '$4.300' },
         { name: 'Café Americano', description: '', price: '$3.400' },
-        { name: 'Café Exprés', description: '', price: '$2.800' },
+        { name: 'Café Expresso', description: '', price: '$2.200' },
         { name: 'Café Capuchino', description: '', price: '$3.600' },
         { name: 'Café Latte', description: '', price: '$3.600' },
-        { name: 'Agua con Gas', description: '', price: '$2.500' },
-        { name: 'Cerveza Corona 0', description: '', price: '$4.400' },
-        { name: 'Cerveza Heineken 0', description: '', price: '$4.400' },
-        { name: 'Cerveza Royal 0', description: '', price: '$4.400' }
+        { name: 'Agua mineral con Gas', description: '', price: '$2.500' },
+        { name: 'Cerveza 0°', description: 'Royal, Heineken, Corona', price: '$4.600' },
       ]
     }
   ]
