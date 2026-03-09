@@ -254,13 +254,15 @@ const menuData = {
     {
       section: 'Spritz & Aperitivos',
       items: [
-        { name: 'Aperol Spritz', description: 'Aperol, Champagne, Soda', price: '$7.400' },
+        { name: 'Aperol Spritz', description: 'Aperol, Champagne y Soda', price: '$7.400' },
         { name: 'Intro to Aperol', description: 'Aperol, Gin London dry, jugo de limón, almíbar simple y bíter angostura', price: '$7.400' },
         { name: 'Ramazzotti Spritz', description: 'Ramazzotti, Champagne y soda', price: '$7.500' },
         { name: 'Ramazzotti Tonic', description: 'Ramazzotti rosatto, agua tónica', price: '$7.400' },
         { name: 'Ramazzotti Violetto Tonic', description: 'Arándanos, R. Violeto y agua tónica', price: '$7.400' },
         { name: 'Pinkzotti', description: 'R. rosatto, gin Pink Strawberry, jugo de limón, jarabe de goma y Schwepper sabor frutal', price: '$7.800' },
         { name: 'Mimosa', description: 'Jugo de naranja, triple sec, champagne', price: '$5.500' },
+        { name: 'St. Germain Spritz', description: 'Licor de saúco, Presecco y Agua mineral gasificada', price: '$7.900' },
+        { name: 'Orgamos', description: 'Amaretto, licor de café y Baileys', price: '$6.600' },
       ]
     },
     {
@@ -334,36 +336,54 @@ const menuData = {
       ]
     },
     {
-      section: 'Los Fuertes',
+      section: 'Martini',
       items: [
-        { name: 'Whisky Glenfiddich 18', description: '', price: '' },
-        { name: 'Whisky Glenfiddich 12', description: '', price: '$14.000' },
-        { name: 'Whisky Chivas Regal 12 + Bebida', description: '', price: '$9.900' },
-        { name: 'Whisky Chivas Regal 18 + Bebida', description: '', price: '$18.000' },
-        { name: 'Jack Daniels + Bebida', description: '', price: '$9.500' },
-        { name: 'Johnnie Walker Rojo Solo', description: '', price: '$4.500' },
-        { name: 'Johnnie Walker Rojo + Bebida', description: '', price: '$5.800' },
-        { name: 'Johnnie Walker Negro + Bebida', description: '', price: '$12.500' },
-        { name: 'Pisco Artesanal Valle Luna + Bebida', description: '', price: '$5.500' },
-        { name: 'Pisco Artesanal Valle Luna Solo', description: '', price: '$4.500' },
-        { name: 'Pisco 35° + Bebida', description: '', price: '$5.500' },
-        { name: 'Pisco 35° Solo', description: '', price: '$4.500' },
-        { name: 'Pisco Nobel 40° + Bebida', description: '', price: '$6.500' },
-        { name: 'Pisco Nobel 40° Solo', description: '', price: '$5.500' },
-        { name: 'Ron Havana Club', description: '', price: '$5.900' },
-        { name: 'Jaggermeister + Bebida', description: '', price: '$5.700' },
-        { name: 'Corto Jaggermeister', description: '', price: '$4.000' }
+        { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin, aceituna', price: '$6.100' },
+        { name: 'Espresso Martini', description: 'Vodka, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
       ]
     },
     {
+      section: 'Los Fuertes',
+      items: [
+        { name: 'Whisky Glenfiddich 18', description: '', price: '$25.000' },
+        { name: 'Whisky Glenfiddich 12', description: '', price: '$11.000' },
+        { name: 'Whisky Chivas Regal 12', description: '', price: '$9.900' },
+        { name: 'Whisky Chivas Regal 18', description: '', price: '$18.000' },
+        { name: 'Jack Daniels', description: '', price: '$9.000' },
+        { name: 'Johnnie Walker Rojo', description: '', price: '$5.900' },
+        { name: 'Johnnie Walker Negro', description: '', price: '$8.900' },
+        { name: 'Pisco Artesanal Valle Luna', description: '', price: '$5.000' },
+        { name: 'Pisco Artesanal Valle Luna Solo', description: '', price: '$4.500' },
+        { name: 'Pisco 35° + Bebida', description: '', price: '$5.500' },
+        { name: 'Pisco 35° Solo', description: '', price: '$4.500' },
+        { name: 'Pisco Nobel 40°', description: '', price: '$6.900' },
+        { name: 'Pisco Nobel 40° Solo', description: '', price: '$5.500' },
+        { name: 'Ron Havana Club', description: '', price: '$6.900' },
+        { name: 'Ron Bacardi', description: '', price: '$6.400' },
+        { name: 'Jaggermeister', description: '', price: '$6.000' },
+        { name: 'Corto Jaggermeister', description: '', price: '$4.000' }
+      ]
+    },
+    
+    {
       section: 'Vinos Castillo de Molina',
       items: [
-        { name: 'Botella 750ml', description: 'Tinto (Castillo de Molina)', price: '$19.500' },
+        { name: 'Botella 750ml Tubti', description: 'Tinto (Castillo de Molina)', price: '$19.500' },
         { name: 'Vino T. Carmenere', description: 'Copa', price: '$5.600' },
         { name: 'Vino T. Cabernet Sauvignon', description: 'Copa', price: '$5.600' },
         { name: 'Botella 750ml Blanco', description: 'Blanco (Castillo de Molina)', price: '$17.000' },
         { name: 'Chardonnay', description: 'Copa', price: '$5.400' },
-        { name: 'Espumante', description: 'Copa', price: '$4.700' }
+        { name: 'Espumante', description: 'Copa', price: '$4.700' },
+        { name: 'Botella de Espumante', description: '', price: '$18.000' }
+      ]
+    },
+    {
+      section: 'Cervezas',
+      items: [
+        { name: 'Cerveza Austral Calafate', description: '330ml', price: '$4.500' },
+        { name: 'Cerveza Cuello Negro Lager', description: '470ml', price: '$5.300' },
+        { name: 'Cerveza Cuello Negro Ámbar', description: '470ml', price: '$5.300' },
+        { name: 'Cerveza Negra IPA', description: '470ml', price: '$5.300' },        
       ]
     },
   ],
@@ -373,13 +393,14 @@ const menuData = {
       items: [
         { name: 'Bebida Lata', description: 'Coca-Cola, Coca-Cola Zero, Sprite, Fanta', price: '$3.000' },
         { name: 'Lata Redbull 250', description: '', price: '$3.500' },
-        { name: 'Jugos Naturales (pulpa)', description: '', price: '$3.900' },
+        { name: 'Jugos Naturales', description: '', price: '$3.900' },
         { name: 'Limonada', description: 'Clásica, Menta Jengibre, Frambuesa, Mango, Piña, Maracuyá, Mix Berries', price: '$4.300' },
         { name: 'Café Americano', description: '', price: '$3.400' },
-        { name: 'Café Expresso', description: '', price: '$2.200' },
+        { name: 'Café Expresso', description: '', price: '$2.800' },
         { name: 'Café Capuchino', description: '', price: '$3.600' },
         { name: 'Café Latte', description: '', price: '$3.600' },
-        { name: 'Agua mineral con Gas', description: '', price: '$2.500' },
+        { name: 'Agua mineral con Gas Porvenir', description: '', price: '$2.600' },
+        { name: 'Agua mineral con Gas Vital', description: '', price: '$2.600' },
         { name: 'Cerveza 0°', description: 'Royal, Heineken, Corona', price: '$4.600' },
       ]
     }
