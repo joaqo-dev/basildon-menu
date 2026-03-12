@@ -279,7 +279,7 @@ const menuData = {
     {
       section: 'Cocktails con Gin',
       items: [
-        { name: 'London Mule', description: 'Gin, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        
         { name: 'Negroni', description: 'Campari, Vermouth rosso, gin Beefeater', price: '$7.000' },
         { name: 'Tom Collins', description: 'Gin, jugo de limón, jarabe de goma, soda', price: '$6.700' },
         { name: 'Gin Tonic Clásico', description: 'Gin, Agua Tónica', price: '$7.900' },
@@ -292,7 +292,7 @@ const menuData = {
     {
       section: 'Cocktails con Vodka',
       items: [
-        { name: 'Moscow Mule', description: 'Vodka, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        
         { name: 'Cosmopolitan', description: 'Vodka, licor de naranja, jugo de limón, jugo de arándano', price: '$6.700' },
         { name: 'Pantera Rosa', description: 'Vodka, jugo de piña, Granadina y crema de leche', price: '$6.900' },
         { name: 'Ruso Blanco', description: 'Vodka, licor de café, y crema de leche', price: '$5.900' },
@@ -340,6 +340,16 @@ const menuData = {
       items: [
         { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin, aceituna', price: '$6.100' },
         { name: 'Espresso Martini', description: 'Vodka, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
+      ]
+    },
+    {
+      section: 'Los Mules',
+      items: [
+        { name: 'Moscow Mule', description: 'Vodka, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        { name: 'London Mule', description: 'Gin, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        { name: 'Mexican Mule', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.800' },
+        { name: 'Kentucky Mule', description: 'Bourbon, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
+        { name: 'Disaronno Mule', description: 'Disaronno, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
       ]
     },
     {
