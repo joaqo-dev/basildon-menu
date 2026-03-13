@@ -110,22 +110,17 @@ const menuData = {
         {
           name: 'Tabla de Quesos',
           description: 'Trozos de queso saborizados, jamón serrano, brochetas italianas, aceitunas, frutos secos y salsas, acompañado de crocantes tostadas de la casa.',
-          price: '$20.900'
+          price: '$22.900'
         },
         {
           name: 'Tabla de Carnes',
           description: 'Pollo salteado a las finas hierbas, carne de lomo nacional saltado en su jugo, verduras asadas, papas fritas, encurtidos, salsas de la casa.',
-          price: '$23.900'
-        },
-        {
-          name: 'Tabla para Compartir',
-          description: '4 mini ceviches, 4 mini quesadillas de res y cebollín, 2 pinchos mixtos, salsas y brusquetas.',
-          price: '$18.900'
+          price: '$24.900'
         },
         {
           name: 'Tabla pollo Rockeford',
           description: 'Papas fritas de la casa, pollo salteado, salsa de queso azul, champiñones salteados y pimentones asados.',
-          price: '$17.900'
+          price: '$21.000'
         }
       ]
     },
@@ -133,19 +128,9 @@ const menuData = {
       section: 'Picoteo',
       items: [
         {
-          name: 'Alitas BBQ',
-          description: '',
-          price: '$13.900'
-        },
-        {
-          name: 'Papas Rústicas (2 p)',
-          description: '',
-          price: '$8.200'
-        },
-        {
           name: 'Papas Fritas de la Casa (2 p)',
           description: '',
-          price: '$7.500'
+          price: '$8.500'
         },
         {
           name: '6 Empanadas Queso',
@@ -162,27 +147,27 @@ const menuData = {
         {
           name: 'Italiana',
           description: '150 gr (Angus/Tocino), pan brioche, tomate, palta y mayonesa. Con papas fritas.',
-          price: '$11.900'
+          price: '$12.900'
         },
         {
           name: 'Basildon',
           description: '150 gr (Angus/Tocino), pan brioche, tocino crocante, queso, salsa BBQ. Con papas fritas.',
-          price: '$11.900'
+          price: '$12.900'
         },
         {
           name: 'Coleslaw',
           description: '150 gr (Angus/Tocino), pan brioche, ensalada de repollo morado, zanahoria, dressing mostaza-miel y queso mantecoso. Con papas fritas.',
-          price: '$11.900'
+          price: '$12.900'
         },
         {
           name: 'La Gringa',
           description: '150 gr (Angus/Tocino), pan brioche, lechuga, tomate, pepinos caseros, cebolla morada y salsa BBQ. Con papas fritas.',
-          price: '$11.900'
+          price: '$12.900'
         },
         {
           name: 'La Infaltable',
           description: '150 gr (Angus/Tocino), pan brioche, aros de cebolla, tocino, huevo frito, cebolla caramelizada, salsa BBQ y extra salsa de queso cheddar caliente. Con papas fritas.',
-          price: '$12.500'
+          price: '$12.900'
         }
       ]
     }
@@ -224,27 +209,27 @@ const menuData = {
         {
           name: 'El Brit',
           description: 'Filete de pollo, lechuga, pepinos frescos, palta e cebolla morada.',
-          price: '$10.500'
+          price: '$11.200'
         },
         {
           name: 'El Synth-Pop',
           description: 'Finas láminas de res, queso azul fundido, champiñones salteados, pimentones asados, palta e chimichurri.',
-          price: '$10.900'
+          price: '$12.900'
         },
         {
           name: 'El New Romantic 🌱',
           description: 'Croquetas de berenjenas apanadas, ensalada de champiñones (cebolla morada, cilantro y tomate), queso de cabra.',
-          price: '$10.500'
+          price: '$10.900'
         },
         {
           name: 'El Dark',
           description: 'Finas láminas de res, queso mantecoso, jamón serrano crocante e cebolla caramelizada.',
-          price: '$11.000'
+          price: '$11.900'
         },
         {
           name: 'El Post Punk',
           description: 'Jamón serrano, rúcula fresca, ricota saborizada, cebolla morada fina, aceitunas y dressing de la casa.',
-          price: '$10.500'
+          price: '$11.700'
         }
       ]
     }
@@ -274,6 +259,7 @@ const menuData = {
         { name: 'Boulevardier', description: 'Whisky, Campari, vermouth rosso', price: '$7.400' },
         { name: 'Clavo Oxidado', description: 'Whisky, Drambuie, Naranja', price: '$7.500' },
         { name: 'John Collins', description: 'Whisky, jugo de limón, jarabe de goma, soda', price: '$7.000' },
+        { name: 'Godfather', description: 'Whisky y Disaronno', price: '$7.500' },
       ]
     },
     {
