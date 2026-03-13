@@ -262,7 +262,7 @@ const menuData = {
         { name: 'Pinkzotti', description: 'R. rosatto, gin Pink Strawberry, jugo de limón, jarabe de goma y Schwepper sabor frutal', price: '$7.800' },
         { name: 'Mimosa', description: 'Jugo de naranja, triple sec, champagne', price: '$5.500' },
         { name: 'St. Germain Spritz', description: 'Licor de saúco, Presecco y Agua mineral gasificada', price: '$7.900' },
-        { name: 'Orgamos', description: 'Amaretto, licor de café y Baileys', price: '$6.600' },
+        { name: 'Orgasmo', description: 'Amaretto, licor de café y Baileys', price: '$6.600' },
       ]
     },
     {
@@ -358,12 +358,11 @@ const menuData = {
         { name: 'Whisky Glenfiddich 18', description: '', price: '$25.000' },
         { name: 'Whisky Glenfiddich 12', description: '', price: '$11.000' },
         { name: 'Whisky Chivas Regal 12', description: '', price: '$9.900' },
-        { name: 'Whisky Chivas Regal 18', description: '', price: '$18.000' },
+        { name: 'Whisky Chivas Regal 18', description: '', price: '$19.000' },
         { name: 'Jack Daniels', description: '', price: '$9.000' },
         { name: 'Johnnie Walker Rojo', description: '', price: '$5.900' },
         { name: 'Johnnie Walker Negro', description: '', price: '$8.900' },
         { name: 'Pisco Artesanal Valle Luna', description: '', price: '$5.000' },
-        { name: 'Pisco Artesanal Valle Luna Solo', description: '', price: '$4.500' },
         { name: 'Pisco 35° + Bebida', description: '', price: '$5.500' },
         { name: 'Pisco 35° Solo', description: '', price: '$4.500' },
         { name: 'Pisco Nobel 40°', description: '', price: '$6.900' },
@@ -378,13 +377,14 @@ const menuData = {
     {
       section: 'Vinos Castillo de Molina',
       items: [
-        { name: 'Botella 750ml Tubti', description: 'Tinto (Castillo de Molina)', price: '$19.500' },
+        { name: 'Botella 750ml Tinto', description: 'Tinto (Castillo de Molina)', price: '$19.500' },
         { name: 'Vino T. Carmenere', description: 'Copa', price: '$5.600' },
         { name: 'Vino T. Cabernet Sauvignon', description: 'Copa', price: '$5.600' },
         { name: 'Botella 750ml Blanco', description: 'Blanco (Castillo de Molina)', price: '$17.000' },
         { name: 'Chardonnay', description: 'Copa', price: '$5.400' },
+        { name: 'Botella de Espumante', description: '', price: '$18.000' },
         { name: 'Espumante', description: 'Copa', price: '$4.700' },
-        { name: 'Botella de Espumante', description: '', price: '$18.000' }
+        
       ]
     },
     {
@@ -411,7 +411,7 @@ const menuData = {
         { name: 'Café Latte', description: '', price: '$3.600' },
         { name: 'Agua mineral con Gas Porvenir', description: '', price: '$2.600' },
         { name: 'Agua mineral con Gas Vital', description: '', price: '$2.600' },
-        { name: 'Cerveza 0°', description: 'Royal, Heineken, Corona', price: '$4.600' },
+        { name: 'Cerveza 0°', description: 'Corona', price: '$4.400' },
       ]
     }
   ]
