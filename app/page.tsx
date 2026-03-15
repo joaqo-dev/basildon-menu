@@ -424,7 +424,7 @@ export default function HomePage() {
             <div className="mb-10 text-center">
               <div className="inline-block relative">
                 <h2 
-                  className="text-[#c5a059] uppercase tracking-[0.25em] px-6"
+                  className="text-white uppercase tracking-[0.25em] px-6"
                   style={{
                     fontFamily: 'HopsAndBarley, serif',
                     fontSize: '16px',
@@ -433,7 +433,7 @@ export default function HomePage() {
                 >
                   {section.section}
                 </h2>
-                <div className="absolute -bottom-2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#c5a059]/40 to-transparent" />
+                <div className="absolute -bottom-2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/40 to-transparent" />
               </div>
             </div>
 
@@ -453,14 +453,14 @@ export default function HomePage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-[#c5a059]/15 py-8">
+      <footer className="border-t border-white/15 py-8">
         <div className="flex items-center justify-center gap-4 mb-4">
-          <div className="w-8 h-[1px] bg-gradient-to-r from-transparent to-[#c5a059]/40" />
-          <div className="w-1 h-1 rotate-45 bg-[#c5a059]" />
-          <div className="w-8 h-[1px] bg-gradient-to-l from-transparent to-[#c5a059]/40" />
+          <div className="w-8 h-[1px] bg-gradient-to-r from-transparent to-white/40" />
+          <div className="w-1 h-1 rotate-45 bg-white" />
+          <div className="w-8 h-[1px] bg-gradient-to-l from-transparent to-white/40" />
         </div>
         <p 
-          className="text-center text-[#d4adad]/40 uppercase tracking-[0.3em]"
+          className="text-center text-white/40 uppercase tracking-[0.3em]"
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontSize: '8px',
@@ -470,7 +470,7 @@ export default function HomePage() {
           Basildon Listening Restobar
         </p>
         <p 
-          className="text-center text-[#d4adad]/40 uppercase tracking-[0.3em]"
+          className="text-center text-white/40 uppercase tracking-[0.3em]"
           style={{
             fontFamily: 'Montserrat, sans-serif',
             fontSize: '8px',

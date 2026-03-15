@@ -8,7 +8,7 @@ interface CategoryNavProps {
 
 export function CategoryNav({ categories, activeCategory, onCategoryChange }: CategoryNavProps) {
   return (
-    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-[#c5a059]/15 px-4 py-6 pb-8">
+    <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-xl border-b border-white/15 px-4 py-6 pb-8">
       <div className="max-w-2xl mx-auto relative">
         {/* Left fade indicator */}
         <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-black/95 to-transparent pointer-events-none z-10" />
@@ -23,7 +23,7 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
             height="16" 
             viewBox="0 0 16 16" 
             fill="none" 
-            className="text-[#c5a059]/60"
+            className="text-white/60"
           >
             <path 
               d="M6 4L10 8L6 12" 
@@ -53,15 +53,15 @@ export function CategoryNav({ categories, activeCategory, onCategoryChange }: Ca
                 font-['Montserrat',sans-serif] font-light pb-3
                 ${
                   activeCategory === category
-                    ? 'text-[#c5a059]'
-                    : 'text-[#d4adad]/40 hover:text-[#d4adad]/70'
+                    ? 'text-white'
+                    : 'text-white/40 hover:text-white/70'
                 }
               `}
             >
               {category}
               {/* Active underline */}
               {activeCategory === category && (
-                <div className="absolute -bottom-2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#c5a059] to-transparent" />
+                <div className="absolute -bottom-2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white to-transparent" />
               )}
             </button>
           ))}

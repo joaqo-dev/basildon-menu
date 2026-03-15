@@ -14,7 +14,7 @@ export function MenuItem({ name, description, price }: MenuItemProps) {
           {/* Header with name and price */}
           <div className="flex items-start justify-between gap-6">
             <h3 
-              className="flex-1 text-[#c5a059] uppercase tracking-[0.15em] leading-snug transition-all duration-300 group-hover:text-[#d4b76a] group-hover:tracking-[0.18em]"
+              className="flex-1 text-white uppercase tracking-[0.15em] leading-snug transition-all duration-300 group-hover:text-white/90 group-hover:tracking-[0.18em]"
               style={{
                 fontFamily: 'HopsAndBarley, serif',
                 fontSize: '16px',
@@ -26,7 +26,7 @@ export function MenuItem({ name, description, price }: MenuItemProps) {
             
             {price && (
               <div 
-                className="text-[#c5a059] whitespace-nowrap tracking-wide transition-all duration-300 group-hover:text-[#d4b76a]"
+                className="text-white whitespace-nowrap tracking-wide transition-all duration-300 group-hover:text-white/90"
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
                   fontSize: '14px',
@@ -41,7 +41,7 @@ export function MenuItem({ name, description, price }: MenuItemProps) {
           {/* Description */}
           {description && (
             <p 
-              className="text-[#d4adad]/75 leading-relaxed transition-all duration-300 group-hover:text-[#d4adad]/90"
+              className="text-white/75 leading-relaxed transition-all duration-300 group-hover:text-white/90"
               style={{
                 fontFamily: 'Inter, sans-serif',
                 fontSize: '12px',
