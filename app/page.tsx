@@ -246,60 +246,62 @@ const menuData = {
         { name: 'Ramazzotti Violetto Tonic', description: 'Arándanos, R. Violeto y agua tónica', price: '$7.400' },
         { name: 'Pinkzotti', description: 'R. rosatto, gin Pink Strawberry, jugo de limón, jarabe de goma y Schwepper sabor frutal', price: '$7.800' },
         { name: 'Mimosa', description: 'Jugo de naranja, triple sec, champagne', price: '$5.500' },
-        { name: 'St. Germain Spritz', description: 'Licor de saúco, Presecco y Agua mineral gasificada', price: '$7.900' },
+    { name: 'St. Germain Spritz', description: 'Licor de saúco, Prosecco y agua mineral gasificada', price: '$9.000' },
+{ name: 'R. Jelinek Spritz', description: 'Elixir de saúco, Prosecco y agua mineral gasificada', price: '$7.900' },
         { name: 'Orgasmo', description: 'Amaretto, licor de café y Baileys', price: '$6.600' },
+        { name: 'Baileys', description: '', price: '$6.500' },
       ]
     },
     {
       section: 'Cocktails con Whisky',
       items: [
-        { name: 'Old Fashioned', description: 'Whisky, almíbar simple y bíter angostura', price: '$7.500' },
-        { name: 'Whisky Sour', description: 'Whisky, jugo de limón, almíbar simple, bíter angostura', price: '$5.500' },
+        { name: 'Old Fashioned', description: 'Whisky Jack Daniels, almíbar simple y bíter angostura', price: '$7.500' },
+        { name: 'Whisky Sour', description: 'Whisky Jack Daniels, jugo de limón, almíbar simple, bíter angostura', price: '$5.500' },
         { name: 'Manhattan', description: 'Whisky, vermouth rosso, bíter angostura', price: '$5.800' },
-        { name: 'Boulevardier', description: 'Whisky, Campari, vermouth rosso', price: '$7.400' },
-        { name: 'Clavo Oxidado', description: 'Whisky, Drambuie, Naranja', price: '$7.500' },
-        { name: 'John Collins', description: 'Whisky, jugo de limón, jarabe de goma, soda', price: '$7.000' },
-        { name: 'Godfather', description: 'Whisky y Disaronno', price: '$7.500' },
+        { name: 'Boulevardier', description: 'Whisky Jack Daniels, Campari y Vermouth rosso', price: '$7.400' },
+        { name: 'Clavo Oxidado', description: 'Whisky Jack Daniels, Drambuie y Naranja', price: '$7.500' },
+        { name: 'John Collins', description: 'Whisky Jack Daniels, jugo de limón, jarabe de goma y soda', price: '$7.000' },
+        { name: 'Godfather', description: 'Whisky Chivas 12 años y Disaronno', price: '$7.500' },
       ]
     },
     {
       section: 'Cocktails con Gin',
       items: [
         
-        { name: 'Negroni', description: 'Campari, Vermouth rosso, gin Beefeater', price: '$7.000' },
-        { name: 'Tom Collins', description: 'Gin, jugo de limón, jarabe de goma, soda', price: '$6.700' },
-        { name: 'Gin Tonic Clásico', description: 'Gin, Agua Tónica', price: '$7.900' },
-        { name: 'Tropical Gin', description: 'Gin, jugo de naranja, RedBull Sabor tropical', price: '$7.900' },
+        { name: 'Negroni', description: 'Gin Beefeater, Campari y Vermouth rosso', price: '$7.000' },
+        { name: 'Tom Collins', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, jarabe de goma y soda', price: '$6.700' },
+        { name: 'Gin Tonic Clásico', description: 'Gin y Agua Tónica', price: '$7.900' },
+        { name: 'Tropical Gin', description: 'Gin, jugo de naranja y RedBull Sabor tropical', price: '$7.900' },
         { name: 'Gin Fizz Arándano', description: 'Gin, Jugo de limón y almíbar simple', price: '$7.900' },
-        { name: 'Pink Tonic', description: 'Fresas, Gin, Schwepper Sabor Frutal', price: '$7.900' },
-        { name: 'Gin Ramazzotti Pomelo', description: 'Gin, R. Rosatto, jugo de pomelo, jugo de limón y Ginger Ale o agua tonica Schwaper rosada', price: '$8.200' }
+        { name: 'Pink Tonic', description: 'Fresas, Gin y Schwepper Sabor Frutal', price: '$7.900' },
+        { name: 'Ginzzotti Pomelo', description: 'Gin (Beefeater, Bombay, Tanqueray), R. Rosatto, jugo de pomelo, jugo de limón y Ginger Ale o agua tonica Schwaper rosada', price: '$8.200' }
       ]
     },
     {
       section: 'Cocktails con Vodka',
       items: [
         
-        { name: 'Cosmopolitan', description: 'Vodka, licor de naranja, jugo de limón, jugo de arándano', price: '$6.700' },
-        { name: 'Pantera Rosa', description: 'Vodka, jugo de piña, Granadina y crema de leche', price: '$6.900' },
-        { name: 'Ruso Blanco', description: 'Vodka, licor de café, y crema de leche', price: '$5.900' },
-        { name: 'Ruso Negro', description: 'Vodka, licor de café', price: '$5.700' },
-        { name: 'Laguna Azul', description: 'Vodka, Curazao, jugo de limón, Sprite', price: '$6.500' },
+        { name: 'Cosmopolitan', description: 'Vodka Absolut limón, licor de naranja, jugo de limón, jugo de arándano', price: '$6.700' },
+        { name: 'Pantera Rosa', description: 'Vodka Absolut, jugo de piña, Granadina y crema de leche', price: '$6.900' },
+        { name: 'Ruso Blanco', description: 'Vodka Absolut, licor de café, y crema de leche', price: '$5.900' },
+        { name: 'Ruso Negro', description: 'Vodka Absolut, licor de café', price: '$5.700' },
+        { name: 'Laguna Azul', description: 'Vodka Absolut, Curazao, jugo de limón, Sprite', price: '$6.500' },
       ]
     },
     {
       section: 'Cocktails con Pisco',
       items: [
-         { name: 'Pisco Sour', description: 'Jugo de limón, almíbar simple, Pisco peruano y clara de huevo', price: '$5.800' },
-        { name: 'Chilcano de Pisco', description: 'Pisco, Ginger Ale y jugo de limón, almíbar simple', price: '$5.800' },
-        { name: 'Pisco Punch', description: 'Pisco, jugo de piña, almíbar simple y jugo de limón', price: '$4.800' },
+         { name: 'Pisco Sour', description: 'Pisco Mistral 35°, jugo de limón, almíbar simple y clara de huevo', price: '$5.800' },
+        { name: 'Chilcano de Pisco', description: 'Pisco Mistral 35°, Ginger Ale, jugo de limón y almíbar simple', price: '$5.800' },
+        { name: 'Pisco Punch', description: 'Pisco Mistral 35°, jugo de piña, almíbar simple y jugo de limón', price: '$4.800' },
         { name: 'Primavera', description: 'Pisco, jugo de naranja, jugo de piña y granadina', price: '$5.800' },
       ]
     },
     {
       section: 'Cocktails con Ron',
       items: [
-        { name: 'Cuba Libre', description: 'Ron blanco, jugo de limón y coca cola.', price: '$5.500' },
-        { name: 'Daiquiri', description: 'Ron blanco, jugo de limón, almíbar simple', price: '$5.700' },
+        { name: 'Cuba Libre', description: 'Ron Dorado, jugo de limón y coca cola.', price: '$5.500' },
+        { name: 'Daiquiri', description: 'Ron Bacardi blanco, jugo de limón y almíbar simple', price: '$5.700' },
         { name: 'El Presidente', description: 'Ron dorado, vermouth seco o Martini, licor de naranja, granadina y amargo angostura', price: '$5.400' },
         { name: 'Mojito Tradicional', description: '', price: '$6.000' },
         { name: 'Mojito Sabores', description: 'Mango, Maracuyá, Frambuesa, Piña.', price: '$6.500' },
@@ -310,9 +312,12 @@ const menuData = {
     {
       section: 'Cocktails con Tequila',
       items: [
-        { name: 'Margarita', description: 'Tequila, Triple sec, Limón de pica', price: '$6.700' },
-        { name: 'Tequila Sunrise', description: 'Tequila, triple sec, jugo de limón, jugo de naranja y granadina', price: '$7.000' },
-        { name: 'Siesta', description: 'Tequila, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$6.800' },
+        { name: 'Margarita Olmeca', description: 'Tequila Olmeca, Triple sec, Limón de pica', price: '$6.700' },
+        { name: 'Margarita Don Julio', description: 'Tequila Don Julio, Triple sec, Limón de pica', price: '$7.900' },
+        { name: 'Tequila Sunrise Olmeca', description: 'Tequila Olmeca, triple sec, jugo de limón, jugo de naranja y granadina', price: '$7.000' },
+        { name: 'Tequila Sunrise Don Julio', description: 'Tequila Don Julio, triple sec, jugo de limón, jugo de naranja y granadina', price: '$8.000' },
+        { name: 'Siesta Olmeca', description: 'Tequila Olmeca, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$6.800' },
+        { name: 'Siesta Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$8.000' },
       ]
     },
     {
@@ -324,17 +329,18 @@ const menuData = {
     {
       section: 'Martini',
       items: [
-        { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin, aceituna', price: '$6.100' },
-        { name: 'Espresso Martini', description: 'Vodka, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
+        { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin Tanqueray y aceituna', price: '$6.100' },
+        { name: 'Espresso Martini', description: 'Vodka Absolut, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
       ]
     },
     {
       section: 'Los Mules',
       items: [
-        { name: 'Moscow Mule', description: 'Vodka, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
-        { name: 'London Mule', description: 'Gin, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
-        { name: 'Mexican Mule', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.800' },
-        { name: 'Kentucky Mule', description: 'Bourbon, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
+        { name: 'Moscow Mule', description: 'Vodka Absolut, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        { name: 'London Mule', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
+        { name: 'Mexican Mule Olmeca', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.800' },
+        { name: 'Mexican Mule Don Julio', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$8.800' },
+        { name: 'Kentucky Mule', description: 'Whisky Bourbon, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
         { name: 'Disaronno Mule', description: 'Disaronno, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
       ]
     },
@@ -346,13 +352,19 @@ const menuData = {
         { name: 'Whisky Chivas Regal 12', description: '', price: '$9.900' },
         { name: 'Whisky Chivas Regal 18', description: '', price: '$19.000' },
         { name: 'Jack Daniels', description: '', price: '$9.000' },
+        { name: 'Jack Daniels Sabores', description: 'Honey, Apple, Fire', price: '$7.900' },
         { name: 'Johnnie Walker Rojo', description: '', price: '$5.900' },
         { name: 'Johnnie Walker Negro', description: '', price: '$8.900' },
         { name: 'Pisco Artesanal Valle Luna', description: '', price: '$5.000' },
-        { name: 'Pisco 35° + Bebida', description: '', price: '$5.500' },
-        { name: 'Pisco 35° Solo', description: '', price: '$4.500' },
-        { name: 'Pisco Nobel 40°', description: '', price: '$6.900' },
-        { name: 'Pisco Nobel 40° Solo', description: '', price: '$5.500' },
+        { name: 'Pisco Mistral "Reserva Privada" Negro', description: '', price: '$9.300' },
+        { name: 'Pisco Mistral Añejado en Roble 40° Clásico', description: '', price: '$6.900' },
+                { name: 'Pisco Mistral Añejado en Roble 40° Reservado', description: '', price: '$6.900' },
+        { name: 'Pisco Mistral Apple 35°', description: '', price: '$6.500' },
+                { name: 'Pisco Mistral AFire 30°', description: '', price: '$6.500' },
+        { name: 'Pisco Mistral 35° Pisco Especial', description: '', price: '$5.500' },
+
+
+
         { name: 'Ron Havana Club', description: '', price: '$6.900' },
         { name: 'Ron Bacardi', description: '', price: '$6.400' },
         { name: 'Jaggermeister', description: '', price: '$6.000' },
@@ -379,7 +391,8 @@ const menuData = {
         { name: 'Cerveza Austral Calafate', description: '330ml', price: '$4.500' },
         { name: 'Cerveza Cuello Negro Lager', description: '470ml', price: '$5.300' },
         { name: 'Cerveza Cuello Negro Ámbar', description: '470ml', price: '$5.300' },
-        { name: 'Cerveza Negra IPA', description: '470ml', price: '$5.300' },        
+        { name: 'Cerveza Negra IPA', description: '470ml', price: '$5.300' },  
+        { name: 'Cerveza STOUT', description: '', price: '$5.300' },        
       ]
     },
   ],
