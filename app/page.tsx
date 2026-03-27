@@ -281,7 +281,7 @@ const menuData = {
         },
         {
           name: 'Personal Jesus',
-          description: 'Mechada, tocicno, cebolla caramelizada y salsa roja',
+          description: 'Mechada, tocino, cebolla caramelizada y salsa roja',
           price: '$14.900'
         },
         {
