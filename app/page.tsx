@@ -22,6 +22,11 @@ const menuData = {
           price: '$13.500'
         },
         {
+          name: 'Ceviche Vegetariano 🌱',
+          description: 'Champiñones, palmitos, cebolla morada, pimentones y palta.',
+          price: '$12.000'
+        },
+        {
           name: 'Ensalada César',
           description: 'Mix de hojas verdes, filete de pollo grillado, crutones, queso parmesano, tomate cherry, dressing tradicional César.',
           price: '$10.500'
@@ -121,7 +126,18 @@ const menuData = {
           name: 'Tabla pollo Rockeford',
           description: 'Papas fritas de la casa, pollo salteado, salsa de queso azul, champiñones salteados y pimentones asados.',
           price: '$21.000'
-        }
+        },
+        {
+          name: 'Tabla pollo',
+          description: 'Papas fritas de la casa, pollo, champiñones y salsa rockeford.',
+          price: '$22.000'
+        },
+        {
+          name: 'Tabla Mechada',
+          description: 'Papas fritas de la casa, carne mechada, tocino y salsa cheddar.',
+          price: '$22.000'
+        },
+
       ]
     },
     {
@@ -151,7 +167,7 @@ const menuData = {
         },
         {
           name: 'Basildon',
-          description: '150 gr (Angus/Tocino), pan brioche, tocino crocante, queso, salsa BBQ. Con papas fritas.',
+          description: '150 gr (Angus/Tocino), pan brioche, tocino crocante, queso y salsa BBQ. Con papas fritas.',
           price: '$12.900'
         },
         {
@@ -168,7 +184,22 @@ const menuData = {
           name: 'La Infaltable',
           description: '150 gr (Angus/Tocino), pan brioche, aros de cebolla, tocino, huevo frito, cebolla caramelizada, salsa BBQ y extra salsa de queso cheddar caliente. Con papas fritas.',
           price: '$12.900'
-        }
+        },
+        {
+          name: 'Sweet Dreams',
+          description: '150 gr hamburguesa de res, pan brioche, queso cheddar, cebolla caramelizada y huevo frito. Con papas fritas.',
+          price: '$12.900'
+        },
+        {
+          name: 'Blue Monday',
+          description: '150 gr hamburguesa de res, pan brioche, queso azul, champiñones salteados y tocino. Con papas fritas.',
+          price: '$12.900'
+        },
+        {
+          name: 'Faith and Devolution',
+          description: '150 gr hamburguesa de res, pan brioche, queso mantecoso, mermelada de morrón y tocino crispy, champiñones y jalapeño. Con papas fritas.',
+          price: '$12.900'
+        },
       ]
     }
   ],
@@ -231,6 +262,33 @@ const menuData = {
           description: 'Jamón serrano, rúcula fresca, ricota saborizada, cebolla morada fina, aceitunas y dressing de la casa.',
           price: '$11.700'
         }
+      ]
+    }
+  ],
+  'PIZZAS': [
+    {
+      section: 'Pizzas',
+      items: [
+        {
+          name: 'Strangelove',
+          description: 'Tomates cherry, jamón serrano, rúcula, queso y salsa de tomate',
+          price: '$12.900'
+        },
+        {
+          name: 'Bjork',
+          description: 'Pollo, champiñones, aceitunas y salsa blanca',
+          price: '$13.900'
+        },
+        {
+          name: 'Personal Jesus',
+          description: 'Mechada, tocicno, cebolla caramelizada y salsa roja',
+          price: '$14.900'
+        },
+        {
+          name: 'Meat  is Murder',
+          description: 'Tomates cherry, champiñones, morrón y salsa blanca',
+          price: '$12.900'
+        },
       ]
     }
   ],
