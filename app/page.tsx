@@ -114,6 +114,22 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Top Navigation */}
+      <nav className="top-nav">
+        {tabs.map((tab) => (
+          <button
+            key={tab.id}
+            id={`nav-${tab.id}`}
+            className={`nav-item ${activeTab === tab.id ? 'active' : ''}`}
+            onClick={() => handleTabChange(tab.id)}
+            aria-label={tab.label}
+          >
+            <span className="nav-icon">{tab.icon}</span>
+            <span className="nav-label">{tab.label}</span>
+          </button>
+        ))}
+      </nav>
+
       {/* Header */}
       <header className="header">
         <img src="/images/basilapp.png" alt="Basildon Logo" className="header-logo" />
@@ -190,21 +206,6 @@ export default function HomePage() {
         )}
       </main>
 
-      {/* Bottom Navigation */}
-      <nav className="bottom-nav">
-        {tabs.map((tab) => (
-          <button
-            key={tab.id}
-            id={`nav-${tab.id}`}
-            className={`nav-item ${activeTab === tab.id ? 'active' : ''}`}
-            onClick={() => handleTabChange(tab.id)}
-            aria-label={tab.label}
-          >
-            <span className="nav-icon">{tab.icon}</span>
-            <span className="nav-label">{tab.label}</span>
-          </button>
-        ))}
-      </nav>
     </>
   );
 }

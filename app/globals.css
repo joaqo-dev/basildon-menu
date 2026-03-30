@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg-primary: #141414;
-  --bg-secondary: #1c1c1c;
-  --bg-header: #1a1a1a;
-  --bg-nav: #111111;
-  --bg-card: #1e1e1e;
-  --text-primary: #e8e8e8;
-  --text-secondary: #a0a0a0;
-  --text-muted: #707070;
-  --accent-category: #d39f2f;
-  --accent-price: #d39f2f;
-  --accent-active: #d39f2f;
-  --accent-subtitle: #b0a898;
-  --border-subtle: rgba(255, 255, 255, 0.06);
+  --bg-primary: #fdfbf7;
+  --bg-secondary: #ffffff;
+  --bg-header: #f5f2eb;
+  --bg-nav: #ffffff;
+  --bg-card: #f9f9f9;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted: #737373;
+  --accent-category: #b3821a;
+  --accent-price: #b3821a;
+  --accent-active: #b3821a;
+  --accent-subtitle: #8c826e;
+  --border-subtle: rgba(0, 0, 0, 0.06);
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', -apple-system, sans-serif;
   --nav-height: 64px;
@@ -46,7 +46,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   background-size: 20px 20px;
   pointer-events: none;
   z-index: 0;
@@ -57,7 +57,7 @@ body::before {
    ═══════════════════════════════════════════════ */
 
 .header {
-  padding: 32px 0 16px;
+  padding: calc(var(--nav-height) + 32px) 0 16px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -79,7 +79,7 @@ body::before {
   position: relative;
   z-index: 1;
   padding-top: 8px;
-  padding-bottom: calc(var(--nav-height) + 24px);
+  padding-bottom: 24px;
   min-height: 100dvh;
 }
 
@@ -211,23 +211,22 @@ body::before {
 }
 
 /* ═══════════════════════════════════════════════
-   BOTTOM NAV
+   TOP NAV
    ═══════════════════════════════════════════════ */
 
-.bottom-nav {
+.top-nav {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   height: var(--nav-height);
   background: var(--bg-nav);
-  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 8px;
-  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding: env(safe-area-inset-top, 0px) 8px 0;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -249,13 +248,13 @@ body::before {
 .nav-item::before {
   content: '';
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
   height: 2px;
   background: var(--accent-active);
-  border-radius: 0 0 2px 2px;
+  border-radius: 2px 2px 0 0;
   transition: width 0.3s ease;
 }
 
@@ -336,9 +335,7 @@ body::before {
 }
 
 .nosotros-image-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(0deg, rgba(20, 20, 20, 0.6) 0%, transparent 50%);
+  display: none;
 }
 
 .nosotros-title {
@@ -388,9 +385,9 @@ body::before {
   align-items: center;
   gap: 10px;
   padding: 14px 32px;
-  border: 1px solid rgba(201, 160, 220, 0.3);
+  border: 1px solid rgba(138, 74, 168, 0.2);
   border-radius: 50px;
-  background: rgba(201, 160, 220, 0.08);
+  background: rgba(138, 74, 168, 0.05);
   color: var(--accent-category);
   font-family: var(--font-body);
   font-size: 0.85rem;
@@ -404,8 +401,8 @@ body::before {
 
 .instagram-button:hover,
 .instagram-button:active {
-  background: rgba(201, 160, 220, 0.15);
-  border-color: rgba(201, 160, 220, 0.5);
+  background: rgba(138, 74, 168, 0.1);
+  border-color: rgba(138, 74, 168, 0.3);
   transform: translateY(-1px);
 }
 
@@ -458,12 +455,12 @@ body::before {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 /* ═══════════════════════════════════════════════
