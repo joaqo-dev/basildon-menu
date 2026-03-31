@@ -372,7 +372,7 @@ const menuData = {
         { name: 'Siesta Olmeca', description: 'Tequila Olmeca, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$6.800' },
         { name: 'Siesta Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$8.000' },
         { name: 'Paloma Olmeca', description: 'Tequila Olmeca, jugo de pomelo, jugo de limón y soda', price: '$6.800' },
-        { name: 'Paloma Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón y soda', price: '$7.900' },
+        { name: 'Paloma Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón y soda ', price: '$7.900' },
       ]
     },
     {
