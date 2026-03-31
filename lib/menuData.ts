@@ -336,6 +336,8 @@ export const tragosCategories: MenuCategory[] = [
           { name: 'Tequila Sunrise Don Julio', description: 'Tequila Don Julio, triple sec, jugo de limón, jugo de naranja y granadina', price: '$8.000' },
           { name: 'Siesta Olmeca', description: 'Tequila Olmeca, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$6.800' },
           { name: 'Siesta Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón, almíbar simple y Campari', price: '$8.000' },
+          { name: 'Paloma Olmeca', description: 'Tequila Olmeca, jugo de pomelo, jugo de limón y soda', price: '$6.800' },
+          { name: 'Paloma Don Julio', description: 'Tequila Don Julio, jugo de pomelo, jugo de limón y soda ', price: '$7.900' },
         ]
       },
       {
@@ -349,7 +351,6 @@ export const tragosCategories: MenuCategory[] = [
         items: [
           { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin Tanqueray y aceituna', price: '$6.100' },
           { name: 'Espresso Martini', description: 'Vodka Absolut, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
-          { name: 'Tiramisú Espresso Martini', description: 'Vodka Absolut, Baileys, licor de café y shot de espresso', price: '$6.900' },
         ]
       },
       {
