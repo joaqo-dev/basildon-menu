@@ -257,7 +257,8 @@ export const tragosCategories: MenuCategory[] = [
         items: [
           { name: 'Aperol Spritz', description: 'Aperol, Champagne y Soda', price: '$7.400' },
           { name: 'Intro to Aperol', description: 'Aperol, Gin London dry, jugo de limón, almíbar simple y bíter angostura', price: '$7.400' },
-          { name: 'Ramazzotti Spritz', description: 'Ramazzotti, Champagne y soda', price: '$7.500' },
+          { name: 'Ramazzotti Spritz', description: 'Ramazzotti, Champagne y soda', price: '$7.900' },
+          { name: 'Campari Spritz', description: 'Campari, espumante brut y soda', price: '$7.900' },
           { name: 'Ramazzotti Tonic', description: 'Ramazzotti rosatto, agua tónica', price: '$7.400' },
           { name: 'Ramazzotti Violetto Tonic', description: 'Arándanos, R. Violeto y agua tónica', price: '$7.400' },
           { name: 'Pinkzotti', description: 'R. rosatto, gin Pink Strawberry, jugo de limón, jarabe de goma y Schwepper sabor frutal', price: '$7.800' },
@@ -272,20 +273,20 @@ export const tragosCategories: MenuCategory[] = [
         section: 'Cocktails con Whisky',
         items: [
           { name: 'Old Fashioned', description: 'Whisky Jack Daniels, almíbar simple y bíter angostura', price: '$7.500' },
-          { name: 'Whisky Sour', description: 'Whisky Jack Daniels, jugo de limón, almíbar simple, bíter angostura', price: '$5.500' },
-          { name: 'Manhattan', description: 'Whisky, vermouth rosso, bíter angostura', price: '$5.800' },
-          { name: 'Boulevardier', description: 'Whisky Jack Daniels, Campari y Vermouth rosso', price: '$7.400' },
-          { name: 'Clavo Oxidado', description: 'Whisky Jack Daniels, Drambuie y Naranja', price: '$7.500' },
+          { name: 'Whisky Sour', description: 'Whisky Jack Daniels, jugo de limón, almíbar simple, bíter angostura', price: '$7.000' },
+          { name: 'Manhattan', description: 'Whisky, vermouth rosso, bíter angostura', price: '$6.500' },
+          { name: 'Boulevardier', description: 'Whisky Jack Daniels, Campari y Vermouth rosso', price: '$8.400' },
+          { name: 'Clavo Oxidado', description: 'Whisky Jack Daniels, Drambuie y Naranja', price: '$8.500' },
           { name: 'John Collins', description: 'Whisky Jack Daniels, jugo de limón, jarabe de goma y soda', price: '$7.000' },
-          { name: 'Godfather', description: 'Whisky Chivas 12 años y Disaronno', price: '$7.500' },
+          { name: 'Godfather', description: 'Whisky Chivas 12 años y Disaronno', price: '$9.000' },
         ]
       },
       {
         section: 'Cocktails con Gin',
         items: [
 
-          { name: 'Negroni', description: 'Gin Beefeater, Campari y Vermouth rosso', price: '$7.000' },
-          { name: 'Tom Collins', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, jarabe de goma y soda', price: '$6.700' },
+          { name: 'Negroni', description: 'Gin Beefeater, Campari y Vermouth rosso', price: '$7.500' },
+          { name: 'Tom Collins', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, jarabe de goma y soda', price: '$7.500' },
           { name: 'Gin Tonic Clásico', description: 'Gin y Agua Tónica', price: '$7.900' },
           { name: 'Tropical Gin', description: 'Gin, jugo de naranja y RedBull Sabor tropical', price: '$7.900' },
           { name: 'Gin Fizz Arándano', description: 'Gin, Jugo de limón y almíbar simple', price: '$7.900' },
@@ -299,8 +300,8 @@ export const tragosCategories: MenuCategory[] = [
 
           { name: 'Cosmopolitan', description: 'Vodka Absolut limón, licor de naranja, jugo de limón, jugo de arándano', price: '$6.700' },
           { name: 'Pantera Rosa', description: 'Vodka Absolut, jugo de piña, Granadina y crema de leche', price: '$6.900' },
-          { name: 'Ruso Blanco', description: 'Vodka Absolut, licor de café, y crema de leche', price: '$5.900' },
-          { name: 'Ruso Negro', description: 'Vodka Absolut, licor de café', price: '$5.700' },
+          { name: 'Ruso Blanco', description: 'Vodka Absolut, licor de café, y crema de leche', price: '$6.500' },
+          { name: 'Ruso Negro', description: 'Vodka Absolut, licor de café', price: '$6.200' },
           { name: 'Laguna Azul', description: 'Vodka Absolut, Curazao, jugo de limón, Sprite', price: '$6.500' },
         ]
       },
@@ -349,19 +350,20 @@ export const tragosCategories: MenuCategory[] = [
       {
         section: 'Martini',
         items: [
-          { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin Tanqueray y aceituna', price: '$6.100' },
-          { name: 'Espresso Martini', description: 'Vodka Absolut, licor de café, almíbar simple y shot de espresso', price: '$6.900' },
+          { name: 'Martini Seco', description: 'Vermut seco (Martini), Gin Tanqueray y aceituna', price: '$6.500' },
+          { name: 'Espresso Martini', description: 'Vodka Absolut, licor de café, almíbar simple y shot de espresso', price: '$7.000' },
         ]
       },
       {
         section: 'Los Mules',
         items: [
-          { name: 'Moscow Mule', description: 'Vodka Absolut, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
-          { name: 'London Mule', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.500' },
-          { name: 'Mexican Mule Olmeca', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.800' },
-          { name: 'Mexican Mule Don Julio', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$8.800' },
+          { name: 'Moscow Mule', description: 'Vodka Absolut, jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.900' },
+          { name: 'London Mule', description: 'Gin (Tanqueray, Bombay, Beefeater), jugo de limón, almíbar simple, cerveza de jengibre', price: '$7.900' },
+          { name: 'Mexican Mule Olmeca', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$8.100' },
+          { name: 'Mexican Mule Don Julio', description: 'Tequila, jugo de limón, almíbar simple, cerveza de jengibre', price: '$9.100' },
           { name: 'Kentucky Mule', description: 'Whisky Bourbon, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
-          { name: 'Disaronno Mule', description: 'Disaronno, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.000' },
+          { name: 'Disaronno Mule', description: 'Disaronno, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.100' },
+          { name: 'Jagger Mule', description: 'Jaggermeister, jugo de limón, jarabe de goma, cerveza de jengibre', price: '$8.100' },
         ]
       },
       {
@@ -412,9 +414,9 @@ export const tragosCategories: MenuCategory[] = [
         items: [
           { name: 'Espumante Misiones de Rengo', description: 'Copa', price: '$4.700' },
           { name: 'Espumante Misiones de Rengo', description: 'Botella', price: '$18.000' },
-          { name: 'Espumante Riccadonna Moscato Rosé', description: 'Botella', price: '$25.000' },
-          { name: 'Espumante Riccadonna Asti', description: 'Botella', price: '$25.000' },
-          { name: 'Espumante Riccadonna Ruby', description: 'Botella', price: '$25.000' },
+          { name: 'Espumante Riccadonna Moscato Rosé', description: 'Botella', price: '$27.000' },
+          { name: 'Espumante Riccadonna Asti', description: 'Botella', price: '$27.000' },
+          { name: 'Espumante Riccadonna Ruby', description: 'Botella', price: '$27.000' },
 
 
         ]
