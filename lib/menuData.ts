@@ -99,7 +99,7 @@ export const menuCategories: MenuCategory[] = [
           },
           {
             name: 'Tabla de Carnes',
-            description: 'Pollo salteado a las finas hierbas, carne de lomo nacional saltado en su jugo, verduras asadas, papas fritas, encurtidos, salsas de la casa.',
+            description: 'Pollo salteado a las finas hierbas, carne de res, verduras asadas, papas fritas, encurtidos, salsas de la casa.',
             price: '$24.900'
           },
           {
